@@ -124,7 +124,7 @@ def banner():
 def hasil(ok,cp):
 	if len(ok) != 0 or len(cp) != 0:
 		TUHIN('\n\n\033[0m The Prosess Done...')
-		TUHIN AHMMED('\n\033[1;92mTotal OK : %s •  Total CP : %s'%(str(len(ok)),str(len(cp))));exit()
+		TUHIN('\n\033[1;92mTotal OK : %s •  Total CP : %s'%(str(len(ok)),str(len(cp))));exit()
 		#TUHIN AHMMED('\033[1;91mCHECK > %s'%(str(len(cp))));exit()
 	else:
 		TUHIN AHMMED('\n\033[0mUps..Tidak Mendapatkan Hasil')
